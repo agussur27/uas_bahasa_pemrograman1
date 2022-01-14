@@ -22,9 +22,8 @@
 from view.input_nilai import *
 
 dataMahasiswa = {}
-
-
 def tambah_data():
+
     global dataMahasiswa
     nama = input_nama()
     nim = input_nim()
