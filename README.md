@@ -96,7 +96,9 @@ def cetak_hasil_pencarian():
         print("==============================================================")
     else:
         print("Datanya {0} Tidak Ada ".format(nama))
+        
 * diatas adalah program pada modul cetak_nilai.py
+
 
 
 def input_nama():
@@ -127,6 +129,7 @@ def input_nilaiUas():
     global nilaiUas
     nilaiUas = int(input("Masukkan Nilai UAS   : "))
     return nilaiUas
+    
 * diatas adalah program pada modul input_nilai.py
 
 from view.cetak_nilai import *
